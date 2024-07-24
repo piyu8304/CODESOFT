@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landingpage.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our website</h1>
+            <p>Discover amazing Courses and get in touch with us.</p>
+            <a href="#courses" class="btn">Learn More</a>
+        </div>
+    </section>
+    
+    <main>
+        <section id="courses">
+            <h2>Courses</h2>
+            <div class="columns">
+                <div class="column">
+                    <h3>HTML</h3>
+                    <br>
+                    <img src="/images/icons8-html-logo-300.png" alt="">
+                    <p>HTML provides the content that gives web pages structure, by using elements and tags, you can add text, images, videos, forms, and</p>
+                    <h4> <a href="">more.</a></h4>
+                </div>
+                <div class="column">
+                    <h3>CSS</h3>
+                    <br>
+                    <img src="/images/icons8-css-logo-300.png" alt="">
+                    <p>Cascading Style Sheets, is a fundamental programming language for web design, used to stylize the presentation of HTML-based pages.</p>
+                    <h4> <a href="">more.</a></h4>
+                </div>
+                <div class="column">
+                    <h3>JS</h3>
+                    <br>
+                    <img src="/images/icons8-javascript-300.png" alt="">
+                    <p>The JavaScript programming language is fun and flexible. It's one of the core technologies of web development and can be used on both the front-end and the back-end.</p>
+                    <h4> <a href="">more.</a></h4>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Our Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
